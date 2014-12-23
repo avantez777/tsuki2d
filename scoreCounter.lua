@@ -5,6 +5,7 @@ scoreCounter = Core.class(Sprite)
 
 function scoreCounter:init(cw,ch,score)
 
+self.cw = cw
 self:addEventListener(Event.ADDED_TO_STAGE, self.onAddedToStage, self)
 self:addEventListener(Event.REMOVED_FROM_STAGE, self.onRemovedFromStage, self)
 
